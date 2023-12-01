@@ -1,15 +1,18 @@
 {
   "name": "app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
+    "@sentry/node": "^7.101.1",
+    "@sentry/profiling-node": "^7.101.1",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.4",
     "express": "^4.18.2",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0"
   }
 }
