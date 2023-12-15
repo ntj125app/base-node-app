@@ -24,9 +24,7 @@ Sentry.init({
         new ProfilingIntegration(),
     ],
     // Performance Monitoring
-    tracesSampleRate: 1.0,
-    // Set sampling rate for profiling - this is relative to tracesSampleRate
-    profilesSampleRate: 1.0,w
+    tracesSampleRate: 0.1,
 });
 
 // The request handler must be the first middleware on the app
